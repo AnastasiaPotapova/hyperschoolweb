@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap);
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: #1E376B;
+}
+
+h1 {
+    font-size: 1em;
+    align-self: center;
+    color: aliceblue;
+}
+
+.menu {
+    height: 30px;
+    align-self: center;
+    width: 100%;
+}
+
+.intro {
+    color: azure;
+    height: 100vh;
+}
+
+.menu{
+    width: 60vw;
+    display: flex;
+    height: 3em;
+    line-height: 3em;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.menu-item{
+    text-align: center;
+    flex-basis: 1vw;
+    flex-grow: 1;
+}
+
+body {
+    background-image: url(intro.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    justify-content: space-between;
+}
+.content {
+    padding-top: 1vw;
+}
+
+.about-me {
+    background-color: aquamarine;
+    height: 100vw;
+    padding: 5%;
+}
+
+.portfolio {
+    background-color: bisque;
+}
+
+.contacts {
+    background-color: azure;
+}
+img {
+    height: 20vh;
+    margin: 10px;
+}
+
+.section {
+    padding: 5vw;
+    border: 10px solid transparent;
+    height: auto;
+    width: 90vw;
+    /*
+    border-image: linear-gradient(to right, transparent 0%, cyan 100%);
+     */
+}
+
+.footer {
+    background-color: #000000;
+    color: azure;
+}

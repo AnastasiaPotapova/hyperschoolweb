@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: TScript
+- text: JScript
+- text: TypeScript
+- text: ES
+- text: Java
+- text: JS
+- text: ECMA
+- text: JEST
+- text: Script
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8017#comment
+status: Solved
+record: -1
